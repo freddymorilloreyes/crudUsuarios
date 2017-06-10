@@ -1,0 +1,46 @@
+body{
+	background-color: rgba(128,128,128,.2);
+}
+
+p{
+	margin-left: 30%;
+}
+
+button, div, input, a{
+	color: #a31915;
+}
+
+h1, h2{
+	color: white;
+	background-color: #a31915; 
+	align-self: center;
+	text-align: center;
+}
+button{
+
+}
+a{
+	text-decoration: none;
+}
+.conMargen{
+	margin-left: 20%;
+	margin-top: 15px;
+}
+div {
+	margin-left: 20%;
+	background-color:;
+	width:;
+	text-align: left;
+	margin-top: 5px;
+}
+div input{
+	border: none;
+	border-radius:8px;
+	position:relative; 
+	top: ;
+	bottom: ;
+	right:;
+	left:;
+	padding-left: 10px;
+	
+}

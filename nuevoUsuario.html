@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registro de Usuario</title>
+	<link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+	<h1>Ingresa tus datos Para Unirte</h1>
+	<div>
+		<form action="controlador/crearUsuario.php" method="post">
+	</div>
+	<div>
+		<label for="usuario">Usuario:</label>
+	</div>
+ 	<div>
+	 	<input type="text" required id="usuario" name="usuario" placeholder="Ingresa tu usuario">
+ 	</div>
+ 	<div>
+	 	<label for="contrasenia">Contraseña:</label>
+ 	</div>
+ 	<div>
+ 		<input type="text" required id="contrasenia" name="contrasenia" placeholder="Ingresa tu contraseña">
+ 	</div>
+ 		<button class="conMargen" type="submit" >Crear</button>		
+	</form>
+	<p>	Si ya tienes una cuenta 
+			<a href="ingresarAlSistema.html">Inicia sesión aquí</a>
+	</p>
+</body>
+</html>

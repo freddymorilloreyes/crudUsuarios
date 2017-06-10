@@ -1,0 +1,28 @@
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Iniciar sesion</title>
+ 	<link rel="stylesheet" href="css/estilos.css" type="text/css">
+ </head>
+ <body>
+ <h1>Inicio de sesión</h1>
+ <form action="controlador/iniciarSesion.php" method="post">
+ 	<div>
+ 	<label for="usuario">Usuario:</label>
+ 	</div>
+ 	<div>
+ 	<input type="text" requeride id="usuario" name="usuario" placeholder="Ingresa tu usuario">
+ 	</div>
+ 	<div>
+ 	<label for="contrasenia">Contraseña:</label>
+ 	</div>
+ 	<div>	
+ 	<input type="text" required id="contrasenia" name="contrasenia" placeholder="Ingresa tu contraseña">
+ 	</div>
+ 	<button class="conMargen" type="submit" >Iniciar Sesión</button>
+ </form>
+ 	<p>¿No tienes una cuenta? <a href="nuevoUsuario.html">Crea una aquí</a></p>
+ </body>
+ </html>
